@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>sode2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:grey;">
+<pre>
+<span class="comment">/* This is a sample c program
+ * Comment closed
+ */</span>
+<span class="preprocess_dir">#include</span> <span class="header_file">&lt;stdio.h&gt;</span>
+
+<span class="reserved_key2">long</span> factorial(<span class="reserved_key2">int</span>);
+
+<span class="reserved_key2">int</span> main()
+{
+    <span class="reserved_key2">int</span> i, n, c;
+
+    printf(<span class="string">"Enter the number of rows you wish to see in pascal triangle\n"</span>);
+    scanf(<span class="string">"%d"</span>, &n);
+
+    <span class="reserved_key2">for</span> (i = <span class="numeric_constant">0</span>; i < n; i++)
+    {
+        <span class="reserved_key2">for</span> (c = <span class="numeric_constant">0</span>; c <= (n - i - <span class="numeric_constant">2</span>); c++)
+            printf(<span class="string">" "</span>);
+
+        <span class="reserved_key2">for</span> (c = <span class="numeric_constant">0</span>; c <= i; c++)
+            printf(<span class="string">"%ld "</span>, factorial(i)/(factorial(c)*factorial(i-c)));
+
+        printf(<span class="string">"\n"</span>);
+    }
+
+    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+}
+
+<span class="reserved_key2">long</span> factorial(<span class="reserved_key2">int</span> n)
+{
+    <span class="reserved_key2">int</span> c;
+    <span class="reserved_key2">long</span> result = <span class="numeric_constant">1</span>;
+
+    <span class="reserved_key2">for</span> (c = <span class="numeric_constant">1</span>; c <= n; c++)
+        result = result * c;
+
+    <span class="reserved_key2">return</span> result;
+}
+</pre>
+</body>
+</html>

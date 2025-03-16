@@ -1,0 +1,3 @@
+./s2html sample.c sample      // produces output as sample.html.
+
+minimum functionality mentioned in main implememted.
