@@ -3,10 +3,10 @@
 This is a simple project where you emulate a typical contacts application.
 
 ## Functionalities
--Create Contact
--Edit Contact
--Search Contact
--Delete Contact
+-Create Contact<br/>
+-Edit Contact <br/>
+-Search Contact <br/>
+-Delete Contact <br/>
 -List Contacts
 
 ## Build Instructions
