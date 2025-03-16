@@ -2,8 +2,6 @@
 
 This program is used to edit ID3 V2.3.0 Mp3 tags. Also functionality is limited to edit only the Title, Artist Name, Album Name, Year, Content Type and Comment Tags.
 
-## Functionalities
-
 ## Build Instructions
 To compile the project using makefile, type:<br/> 
 
