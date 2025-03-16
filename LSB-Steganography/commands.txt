@@ -1,0 +1,11 @@
+To compile: 
+make all -> Makefile provided...
+
+
+To encode:
+
+./encode -e beautiful.bmp secret.txt <Encoded optional>.bmp
+
+To decode:
+
+./encode -d <Encoded_image>.bmp <optional file_name>
