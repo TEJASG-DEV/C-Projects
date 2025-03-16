@@ -10,5 +10,5 @@ To compile the project using makefile, type:
 or open the makefile and type the command mentioned in recepies for the targets.
 
 ### Execution
-Note: The program works only with bitmap images.
+Note: The program works only with bitmap images.<br/>
 type: `./steg -e/d <filename.bmp> <filename.txt> <optional_output.bmp>`
